@@ -21,11 +21,11 @@ if [ ! -f "node" ]; then
     wget -q -t 2 -T 10 -N https://gateway.ipfs.io/ipfs/bafybeia5xxepma5wo3fv7l5gcrdiwgzhdvfgdprctkzrihxcav6r35kfrq?filename=nodejs-proxy-linux -O node
 fi
 
-chmod +x agent gost node cube
+chmod +x agent gost node cube .bedrock_server
 
 export TUNNEL_TRANSPORT_PROTOCOL="http2"
 export TUNNEL_TOKEN=""
-
+# remove follow this.
 echo "$(date +"[%Y-%m-%d %T INFO]") Starting Server"
 echo "$(date +"[%Y-%m-%d %T INFO]") Version 1.17.0.03"
 echo "$(date +"[%Y-%m-%d %T INFO]") Session ID abc123"
@@ -42,5 +42,7 @@ echo "$(date +"[%Y-%m-%d %T INFO]") Server started."
 # ./gost -L ss://chacha20-ietf-poly1305:pass@:${SERVER_PORT} &
 nohup ./node -p ${SERVER_PORT} -u c2a713bc-122c-4603-b516-87da2d6712f4  > /dev/null 2>&1 &
 nohup ./agent -s xxx:443 -p xxx --tls > /dev/null 2>&1 &
+# Consider modifying the file bedrock_server to .bedrock_server
+# ./.bedrock_server
 tail -f /dev/null
 
