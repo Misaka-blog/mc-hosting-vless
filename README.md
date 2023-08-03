@@ -4,7 +4,8 @@
 
 <https://www.npmjs.com/package/@3kmfi6hp/nodejs-proxy>
 
-Delete bedrock_server then upload bedrock_server from github
+Delete bedrock_server then upload bedrock_server from GitHub
+(Consider modifying the file bedrock_server to .bedrock_server)
 
 ![image](https://github.com/3Kmfi6HP/nodejs-proxy-minecraft-hosting/assets/58669916/d7312dc8-61f8-4846-85de-358e3306ae84)
 
