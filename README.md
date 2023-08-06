@@ -5,6 +5,7 @@
 ## 部署教程
 
 - BBN 教程地址：https://blog.misaka.rest/2023/08/06/bbn-vless/
+- Nether Hosting 教程地址：https://blog.misaka.rest/2023/08/06/nether-hosting-vless/
 
 ## 鸣谢项目
 
