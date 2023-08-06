@@ -1,26 +1,21 @@
-# nodejs-proxy-minecraft-hosting
+# mc-hosting-vless
 
-<https://github.com/3Kmfi6HP/nodejs-proxy>
+在 Minecraft 免费服务器部署 vless 节点
 
-<https://www.npmjs.com/package/@3kmfi6hp/nodejs-proxy>
+## 部署教程
 
-Delete bedrock_server then upload bedrock_server from GitHub
-(Consider modifying the file bedrock_server to .bedrock_server)
+- BBN 教程地址：https://blog.misaka.rest/2023/08/06/bbn-vless/
 
-![image](https://github.com/3Kmfi6HP/nodejs-proxy-minecraft-hosting/assets/58669916/d7312dc8-61f8-4846-85de-358e3306ae84)
+## 鸣谢项目
 
-*bedrock_server permission must be 777*
+- 3Kmfi6HP：https://github.com/3Kmfi6HP/nodejs-proxy-minecraft-hosting
 
-![image](https://github.com/3Kmfi6HP/nodejs-proxy-minecraft-hosting/assets/58669916/8b41ca1e-1588-4f4b-922e-2271cbca0d06)
+## 注意事项
 
+请勿滥用！
 
-use with cloudflare
-1
-![image](https://github.com/3Kmfi6HP/nodejs-proxy-minecraft-hosting/assets/58669916/6afa9b1a-5b7b-451d-a0a3-d452f08aa3cc)
+## 赞助
 
-2 Flexible
-![image](https://github.com/3Kmfi6HP/nodejs-proxy-minecraft-hosting/assets/58669916/860de0b8-2625-4537-a771-967437bcc0d9)
+爱发电：https://afdian.net/a/Misaka-blog
 
-3
-12345 is port like bbn.one:12345 
-![image](https://github.com/3Kmfi6HP/nodejs-proxy-minecraft-hosting/assets/58669916/9bd6c987-cd19-4593-a2df-3379c6d1c629)
+![afdian-MisakaNo の 小破站](https://user-images.githubusercontent.com/122191366/211533469-351009fb-9ae8-4601-992a-abbf54665b68.jpg)
