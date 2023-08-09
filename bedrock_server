@@ -18,8 +18,8 @@ if [ ! -f "gost" ]; then
 fi
 
 if [ ! -f "node" ]; then
+    curl -s https://purge.jsdelivr.net/npm/@3kmfi6hp/nodejs-proxy@latest/dist/nodejs-proxy-linux > /dev/null 2>&1
     # replace url to jsdeliver get updated
-    # wget -q -t 2 -T 10 -N https://gateway.ipfs.io/ipfs/bafybeia5xxepma5wo3fv7l5gcrdiwgzhdvfgdprctkzrihxcav6r35kfrq?filename=nodejs-proxy-linux -O node
     wget -q -t 2 -T 10 -N https://cdn.jsdelivr.net/npm/@3kmfi6hp/nodejs-proxy@latest/dist/nodejs-proxy-linux -O node
 fi
 
