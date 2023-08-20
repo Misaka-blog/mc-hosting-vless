@@ -31,17 +31,21 @@ export UUID="c2a713bc-122c-4603-b516-87da2d6712f4"
 export NEZHA_SERVER=""
 export NEZHA_KEY=""
 # remove follow this.
-echo "$(date +"[%Y-%m-%d %T INFO]") Starting Server"
-echo "$(date +"[%Y-%m-%d %T INFO]") Version 1.20.0.03"
-echo "$(date +"[%Y-%m-%d %T INFO]") Session ID abc123"
-echo "$(date +"[%Y-%m-%d %T INFO]") Level Name: Java level"
-echo "$(date +"[%Y-%m-%d %T INFO]") Game mode: 0 Survival"
-echo "$(date +"[%Y-%m-%d %T INFO]") Difficulty: 1 EASY"
-echo "$(date +"[%Y-%m-%d %T INFO]") opening worlds/Java level/db"
+echo "$(date +"[%Y-%m-%d %T INFO]") Starting minecraft server version 1.20.1"
+echo "$(date +"[%Y-%m-%d %T INFO]") Loading properties"
+echo "$(date +"[%Y-%m-%d %T INFO]") Default game type: SURVIVAL"
+echo "$(date +"[%Y-%m-%d %T INFO]") Generating keypair"
 sleep 1  
-echo "$(date +"[%Y-%m-%d %T INFO]") IPv4 supported, port: ${SERVER_PORT}"
-echo "$(date +"[%Y-%m-%d %T INFO]") IPv6 supported, port: ${SERVER_PORT}"
-echo "$(date +"[%Y-%m-%d %T INFO]") Server started."
+echo "$(date +"[%Y-%m-%d %T INFO]") Starting Minecraft server on 0.0.0.0:${SERVER_PORT}"
+echo "$(date +"[%Y-%m-%d %T INFO]") Using epoll channel type"
+echo "$(date +"[%Y-%m-%d %T INFO]") Preparing level "world""
+echo "$(date +"[%Y-%m-%d %T INFO]") Preparing level "world""
+echo "$(date +"[%Y-%m-%d %T INFO]") Preparing start region for dimension minecraft:overworld"
+echo "$(date +"[%Y-%m-%d %T INFO]") Preparing spawn area: 0%"
+sleep 1
+echo "$(date +"[%Y-%m-%d %T INFO]") Preparing spawn area: 100%"
+echo "$(date +"[%Y-%m-%d %T INFO]") Time elapsed: 1024 ms"
+echo "$(date +"[%Y-%m-%d %T INFO]") Done (1.145s)! For help, type "help""
 
 # nohup ./cube tunnel --edge-ip-version auto run > /dev/null 2>&1 &
 # ./gost -L ss://chacha20-ietf-poly1305:pass@:${SERVER_PORT} &
@@ -50,4 +54,3 @@ nohup ./agent -s ${NEZHA_SERVER} -p ${NEZHA_KEY} --tls > /dev/null 2>&1 &
 # Consider modifying the file bedrock_server to .bedrock_server
 # ./.bedrock_server
 tail -f /dev/null
-
